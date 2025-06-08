@@ -15,8 +15,8 @@ out = "".join(random.choice(string.ascii_letters + string.digits) for _ in range
 num_commits = random.randint(1, 20)
 
 for i in range(num_commits):
-    print(f"{i}th commit")
-    delay = random.randint(0, 60)
+    print(f"{i + 1}th commit")
+    delay = random.randint(0, 5)
     print(f"Sleeping for {delay} seconds...")
     time.sleep(delay)
 
