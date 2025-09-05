@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>__MSG_popupTitle__</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/popup.css">
+</head>
+<body>
+    <img src="images/banner.png" alt="Banner" class="banner">
+    <div class="tab">
+        <button class="tablinks active" data-tab="common">__MSG_tabCommon__</button>
+        <button class="tablinks" data-tab="quicknote">__MSG_tabQuickNote__</button>
+        <button class="tablinks settings-button" id="openSettings">⚙️</button>
+    </div>
+
+    <div id="status"></div>
+
+    <div id="common" class="tabcontent" style="display: block;">
+        <div class="function-section">
+            <div class="function-title">__MSG_webSummaryTitle__</div>
+            <button id="extract" class="extract-button">__MSG_extractAndSummarizeButton__</button>
+        </div>
+
+        <div class="function-section">
+            <div class="function-title">__MSG_extractContentTitle__</div>
+            <button id="extractContent" class="extract-button">__MSG_extractContentButton__</button>
+        </div>
+        
+        <div id="summaryPreview">
+            <h3 style="margin-top: 0; margin-bottom: 8px;">__MSG_summaryPreviewTitle__</h3>
+            <textarea id="summaryText" class="text-input" style="margin-bottom: 8px;" placeholder="__MSG_summaryTextPlaceholder__"></textarea>
+            <div class="url-display">
+                <div id="pageTitle"></div>
+                <div id="pageUrl"></div>
+            </div>
+            <div class="preview-actions button-group"> <!-- 使用 .button-group 来统一间距和对齐 -->
+                <button id="editSummary" class="send-button">__MSG_editAndSaveButton__</button>
+                <button id="cancelEdit" class="clear-button">__MSG_cancelButton__</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="quicknote" class="tabcontent">
+        <div class="function-section">
+            <div class="function-title">__MSG_quickNoteTitle__</div>
+            <textarea id="quickNoteInput" class="text-input" placeholder="__MSG_quickNotePlaceholder__"></textarea>
+            <div id="attachmentList" class="attachment-list">
+                <div class="attachment-header">
+                    <span class="attachment-title">__MSG_attachmentListTitle__</span>
+                    <button id="clearAttachments" class="clear-button" style="display: none;">__MSG_clearAllButton__</button>
+                </div>
+                <div id="attachmentItems" class="attachment-items"></div>
+            </div>
+            <div class="button-group">
+                <button id="sendQuickNote" class="send-button">__MSG_sendButton__</button>
+                <button id="clearQuickNote" class="clear-button">__MSG_clearButton__</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="js/popup.js"></script>
+</body>
+</html>

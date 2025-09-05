@@ -1,0 +1,648 @@
+{
+  "popupTitle": {
+    "message": "Blinko Extension",
+    "description": "Popup panel title"
+  },
+  "extensionName": {
+    "message": "Blinko Extension",
+    "description": "Extension name for context menu"
+  },
+  "sendSelectedText": {
+    "message": "Send Selected Text to Blinko",
+    "description": "Context menu for sending selected text"
+  },
+  "saveToQuickNote": {
+    "message": "Save to Quick Note",
+    "description": "Context menu for saving text to quick note"
+  },
+  "saveImageToQuickNote": {
+    "message": "Save Image to Quick Note",
+    "description": "Context menu for saving image to quick note"
+  },
+  "saveImageToBlinko": {
+    "message": "Save Image to Blinko",
+    "description": "Context menu for saving image to Blinko"
+  },
+  "summarizePageContent": {
+    "message": "Summarize Page Content",
+    "description": "Context menu for summarizing page content"
+  },
+  "extractPageContent": {
+    "message": "Extract Page Content",
+    "description": "Context menu for extracting page content"
+  },
+  "notificationSendSuccessTitle": {
+    "message": "Send Success",
+    "description": "Notification title for successful send"
+  },
+  "notificationSendSuccessMessage": {
+    "message": "Selected text has been sent to Blinko successfully.",
+    "description": "Notification message for successful send"
+  },
+  "notificationSendErrorTitle": {
+    "message": "Send Error",
+    "description": "Notification title for failed send"
+  },
+  "notificationExtractSuccessTitle": {
+    "message": "Extract Success",
+    "description": "Notification title for successful content extraction"
+  },
+  "notificationSummarySuccessTitle": {
+    "message": "Summarize Success",
+    "description": "Notification title for successful content summarization"
+  },
+  "notificationExtractSuccessMessage": {
+    "message": "Successfully extracted content from \"$1\" and saved to Blinko",
+    "description": "Notification message for content extraction success"
+  },
+  "notificationSummarySuccessMessage": {
+    "message": "Successfully summarized content from \"$1\" and saved to Blinko",
+    "description": "Notification message for content summarization success"
+  },
+  "notificationExtractSuccessMessagePopup": {
+    "message": "Content extraction for \"%s\" completed. Click on the extension icon to view.",
+    "description": "Notification message for content extraction success when popup is closed"
+  },
+  "notificationSummarySuccessMessagePopup": {
+    "message": "Content summarization for \"%s\" completed. Click on the extension icon to view.",
+    "description": "Notification message for content summarization success when popup is closed"
+  },
+  "notificationExtractErrorTitle": {
+    "message": "Extract Failed",
+    "description": "Notification title for content extraction failure"
+  },
+  "notificationSummaryErrorTitle": {
+    "message": "Summarize Failed",
+    "description": "Notification title for content summarization failure"
+  },
+  "notificationErrorMessage": {
+    "message": "Error during %s \"%s\": %s",
+    "description": "Notification error message with action, title, and error description"
+  },
+  "extractAction": {
+    "message": "Extracting",
+    "description": "The action word when extracting content"
+  },
+  "summaryAction": {
+    "message": "Summarizing",
+    "description": "The action word when summarizing content"
+  },
+  "defaultPage": {
+    "message": "page",
+    "description": "Default string for page name when none provided"
+  },
+  "tabCommon": {
+    "message": "Common",
+    "description": "Common tab text"
+  },
+  "tabQuickNote": {
+    "message": "Quick Note",
+    "description": "Quick note tab text"
+  },
+  "tabSettings": {
+    "message": "Settings",
+    "description": "Settings tab text"
+  },
+  "webSummaryTitle": {
+    "message": "Web Summary",
+    "description": "Web summary section title"
+  },
+  "extractAndSummarizeButton": {
+    "message": "Extract and Summarize Page Content",
+    "description": "Button text for extract and summarize"
+  },
+  "extractContentTitle": {
+    "message": "Extract Web Content",
+    "description": "Extract content section title"
+  },
+  "extractContentButton": {
+    "message": "Extract Web Content",
+    "description": "Button text for content extraction"
+  },
+  "quickNoteTitle": {
+    "message": "Quick Note",
+    "description": "Quick note section title"
+  },
+  "quickNotePlaceholder": {
+    "message": "Enter your notes here, or collect web content via right-click menu...",
+    "description": "Placeholder text for quick note input"
+  },
+  "attachmentListTitle": {
+    "message": "Attachments",
+    "description": "Title for attachment list"
+  },
+  "clearAllButton": {
+    "message": "Clear All",
+    "description": "Button text for clearing all"
+  },
+  "sendButton": {
+    "message": "Send",
+    "description": "Button text for send action"
+  },
+  "clearButton": {
+    "message": "Clear",
+    "description": "Button text for clear action"
+  },
+  "summaryPreviewTitle": {
+    "message": "Summary Preview",
+    "description": "Title for summary preview section"
+  },
+  "summaryTextPlaceholder": {
+    "message": "Summary content will be displayed here...",
+    "description": "Placeholder text for summary content"
+  },
+  "cancelButton": {
+    "message": "Cancel",
+    "description": "Button text for cancel action"
+  },
+  "editAndSaveButton": {
+    "message": "Edit and Save",
+    "description": "Button text for edit and save action"
+  },
+  "settingsTitle": {
+    "message": "Settings",
+    "description": "Settings page title"
+  },
+  "settingsPageTitle": {
+    "message": "Blinko Extension Settings",
+    "description": "Settings page browser tab title"
+  },
+  "blinkoApiUrlLabel": {
+    "message": "Blinko API URL:",
+    "description": "Label for Blinko API URL input"
+  },
+  "blinkoApiUrlHelp": {
+    "message": "Enter your Blinko domain (e.g., https://blinko.example.com)",
+    "description": "Help text for API URL input"
+  },
+  "blinkoAuthKeyLabel": {
+    "message": "Blinko Auth Key:",
+    "description": "Label for Blinko auth key input"
+  },
+  "fetchAiConfigButton": {
+    "message": "Get AI Config from Blinko",
+    "description": "Button text for fetching AI configuration"
+  },
+  "openaiApiUrlLabel": {
+    "message": "OpenAI Compatible API URL:",
+    "description": "Label for OpenAI API URL input"
+  },
+  "apiKeyLabel": {
+    "message": "API Key:",
+    "description": "Label for API key input"
+  },
+  "modelNameLabel": {
+    "message": "Model Name:",
+    "description": "Label for model name input"
+  },
+  "temperatureLabel": {
+    "message": "Temperature:",
+    "description": "Label for temperature input"
+  },
+  "promptTemplateLabel": {
+    "message": "Prompt Template:",
+    "description": "Label for prompt template input"
+  },
+  "promptTemplateSelectorLabel": {
+    "message": "Select Prompt Template:",
+    "description": "Label for the prompt template selector dropdown"
+  },
+  "promptTemplateContentLabel": {
+    "message": "Template Content:",
+    "description": "Label for the prompt template content input field"
+  },
+  "promptTemplatePlaceholder": {
+    "message": "Please summarize the following content in concise language, highlighting the key points: {content}",
+    "description": "Placeholder for prompt template input"
+  },
+  "includeSummaryUrlLabel": {
+    "message": "Include URL in summary notes",
+    "description": "Label for include URL in summary checkbox"
+  },
+  "includeSummaryUrlHelp": {
+    "message": "Whether to include the original URL when summarizing web pages",
+    "description": "Help text for include URL in summary"
+  },
+  "includeSelectionUrlLabel": {
+    "message": "Include URL when saving selected text",
+    "description": "Label for include URL in selection checkbox"
+  },
+  "includeImageUrlLabel": {
+    "message": "Include URL when saving images",
+    "description": "Label for include URL in image checkbox"
+  },
+  "includeQuickNoteUrlLabel": {
+    "message": "Include URL in quick notes",
+    "description": "Label for include URL in quick note checkbox"
+  },
+  "summaryTagLabel": {
+    "message": "Summary Tag:",
+    "description": "Label for summary tag input"
+  },
+  "selectionTagLabel": {
+    "message": "Selection Tag:",
+    "description": "Label for selection tag input"
+  },
+  "imageTagLabel": {
+    "message": "Image Tag:",
+    "description": "Label for image tag input"
+  },
+  "enableFloatingBallLabel": {
+    "message": "Enable Floating Ball",
+    "description": "Label for enable floating ball checkbox"
+  },
+  "jinaApiKeyLabel": {
+    "message": "Jina Reader API Key:",
+    "description": "Label for Jina Reader API key input"
+  },
+  "useJinaApiKeyLabel": {
+    "message": "Use API Key to accelerate extraction",
+    "description": "Label for use Jina API key checkbox"
+  },
+  "saveWebImagesLabel": {
+    "message": "Save web image links (some images may be blocked by platforms, please use with caution)",
+    "description": "Label for save web images checkbox"
+  },
+  "extractTagLabel": {
+    "message": "Web Clipping Tag:",
+    "description": "Label for extract tag input"
+  },
+  "saveSettingsButton": {
+    "message": "Save Settings",
+    "description": "Button text for save settings"
+  },
+  "resetSettingsButton": {
+    "message": "Reset to Default",
+    "description": "Button text for reset settings"
+  },
+  "showHideButton": {
+    "message": "Show/Hide",
+    "description": "Button text for show/hide password"
+  },
+  "extractingContent": {
+    "message": "Extracting web content...",
+    "description": "Status message when extracting content"
+  },
+  "cannotGetTab": {
+    "message": "Cannot get current tab",
+    "description": "Error message when unable to get current tab"
+  },
+  "settingsSaved": {
+    "message": "Settings saved",
+    "description": "Success message when settings are saved"
+  },
+  "settingsSaveError": {
+    "message": "Failed to save settings: %s",
+    "description": "Error message when saving settings fails"
+  },
+  "settingsReset": {
+    "message": "Settings reset to default",
+    "description": "Success message when settings are reset"
+  },
+  "settingsResetError": {
+    "message": "Failed to reset settings: %s",
+    "description": "Error message when resetting settings fails"
+  },
+  "initializationError": {
+    "message": "Initialization failed: %s",
+    "description": "Error message when initialization fails"
+  },
+  "summaryTagPlaceholder": {
+    "message": "#web/summary",
+    "description": "Placeholder for summary tag input"
+  },
+  "selectionTagPlaceholder": {
+    "message": "#web/selection",
+    "description": "Placeholder for selection tag input"
+  },
+  "imageTagPlaceholder": {
+    "message": "#web/image",
+    "description": "Placeholder for image tag input"
+  },
+  "extractTagPlaceholder": {
+    "message": "#web/clipping",
+    "description": "Placeholder for extract tag input"
+  },
+  "addTemplateButtonTooltip": {
+    "message": "Add a new prompt template",
+    "description": "Tooltip for the add new prompt template button"
+  },
+  "deleteTemplateButtonTooltip": {
+    "message": "Delete the currently selected prompt template",
+    "description": "Tooltip for the delete current prompt template button"
+  },
+  "promptForTemplateName": {
+    "message": "Please enter the name for the new template:",
+    "description": "Prompt message when asking for new template name"
+  },
+  "confirmDeleteTemplate": {
+    "message": "Are you sure you want to delete the template \"{templateName}\"? This action cannot be undone.",
+    "description": "Confirmation message before deleting a template. {templateName} is a placeholder for the template name.",
+    "placeholders": {
+      "templateName": {
+        "content": "$1",
+        "example": "My Summary Template"
+      }
+    }
+  },
+  "errorMinOneTemplate": {
+    "message": "Operation failed: At least one prompt template must be kept.",
+    "description": "Error message when trying to delete the last template"
+  },
+  "errorTemplateNameEmpty": {
+    "message": "Template name cannot be empty.",
+    "description": "Error message when template name is empty during creation"
+  },
+  "templateAddedSuccess": {
+    "message": "New template \"{templateName}\" added and set as current.",
+    "description": "Success message when a new template is added. {templateName} is a placeholder.",
+    "placeholders": {
+      "templateName": {
+        "content": "$1",
+        "example": "My Template"
+      }
+    }
+  },
+  "templateDeleteSuccess": {
+    "message": "Template \"{templateName}\" deleted.",
+    "description": "Success message when a template is deleted. {templateName} is a placeholder.",
+    "placeholders": {
+      "templateName": {
+        "content": "$1",
+        "example": "Old Template"
+      }
+    }
+  },
+  "templateAddError": {
+    "message": "Failed to add new template: {error}",
+    "description": "Error message when adding a new template fails. {error} is a placeholder.",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Storage error"
+      }
+    }
+  },
+  "templateDeleteError": {
+    "message": "Failed to delete template: {error}",
+    "description": "Error message when deleting a template fails. {error} is a placeholder.",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Unknown error"
+      }
+    }
+  },
+  "domainSpecificTemplatesTitle": {
+    "message": "Domain-Specific Templates",
+    "description": "Title for the domain-specific templates section"
+  },
+  "addDomainRuleButton": {
+    "message": "Add Domain Rule",
+    "description": "Button text to add a new domain-specific rule"
+  },
+  "domainPatternLabel": {
+    "message": "Domain/Pattern:",
+    "description": "Label for the domain pattern input field"
+  },
+  "domainPatternPlaceholder": {
+    "message": "e.g., example.com, *.example.com, localhost:3000",
+    "description": "Placeholder text for the domain pattern input"
+  },
+  "selectTemplateForDomainLabel": {
+    "message": "Select Template:",
+    "description": "Label for the template selector dropdown for a domain rule"
+  },
+  "deleteDomainRuleButtonTooltip": {
+    "message": "Delete this rule",
+    "description": "Tooltip for the delete button of a domain rule"
+  },
+  "confirmDeleteDomainRule": {
+    "message": "Are you sure you want to delete the template rule for domain \"{domainPattern}\"?",
+    "description": "Confirmation message before deleting a domain rule. {domainPattern} is a placeholder.",
+    "placeholders": {
+      "domainPattern": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "errorDomainPatternEmpty": {
+    "message": "Domain pattern cannot be empty.",
+    "description": "Error message if the domain pattern is empty"
+  },
+  "errorTemplateNotSelected": {
+    "message": "Please select a template for this domain rule.",
+    "description": "Error message if no template is selected for a domain rule"
+  },
+  "domainRuleAddedSuccess": {
+    "message": "Template rule added for \"{domainPattern}\".",
+    "description": "Success message when a domain rule is added. {domainPattern} is a placeholder.",
+    "placeholders": {
+      "domainPattern": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "domainRuleDeletedSuccess": {
+    "message": "Template rule for \"{domainPattern}\" deleted.",
+    "description": "Success message when a domain rule is deleted. {domainPattern} is a placeholder.",
+    "placeholders": {
+      "domainPattern": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "errorSavingDomainRule": {
+    "message": "Failed to save domain rule: {error}",
+    "description": "Error message when saving a domain rule fails. {error} is a placeholder.",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Storage error"
+      }
+    }
+  },
+  "columnDomainPattern": {
+    "message": "Domain Pattern",
+    "description": "Table header for domain pattern column"
+  },
+  "columnAssignedTemplate": {
+    "message": "Assigned Template",
+    "description": "Table header for assigned template column"
+  },
+  "columnActions": {
+    "message": "Actions",
+    "description": "Table header for actions column"
+  },
+  "noDomainRulesDefined": {
+    "message": "No domain-specific template rules have been configured yet.",
+    "description": "Message shown when no domain-specific rules are defined"
+  },
+  "saveRuleButton": {
+    "message": "Save Rule",
+    "description": "Button text to save a domain rule"
+  },
+  "cancelRuleButton": {
+    "message": "Cancel",
+    "description": "Button text to cancel editing/adding a domain rule"
+  },
+  "errorNoTemplatesAvailableForDomainRule": {
+    "message": "No templates available to create a domain rule. Please add some prompt templates first.",
+    "description": "Error message shown in domain rule template selector if no prompt templates exist."
+  },
+  "themeSettingsLabel": {
+    "message": "Theme Settings",
+    "description": "Label for the theme selection group in settings"
+  },
+  "themeLight": {
+    "message": "Light",
+    "description": "Label for the light theme option"
+  },
+  "themeDark": {
+    "message": "Dark",
+    "description": "Label for the dark theme option"
+  },
+  "themeSystem": {
+    "message": "System Default",
+    "description": "Label for the system default theme option"
+  },
+  "floatingBallSizeLabel": {
+    "message": "Floating Ball Size",
+    "description": "Label for the floating ball size selection group in settings"
+  },
+  "floatingBallSizeSmall": {
+    "message": "Small",
+    "description": "Label for the small floating ball size option"
+  },
+  "floatingBallSizeMedium": {
+    "message": "Medium",
+    "description": "Label for the medium floating ball size option"
+  },
+  "floatingBallSizeLarge": {
+    "message": "Large",
+    "description": "Label for the large floating ball size option"
+  },
+  "requestProcessError": {
+    "message": "Request processing failed",
+    "description": "Error message when request processing fails"
+  },
+  "operationFailed": {
+    "message": "Operation Failed",
+    "description": "Title for operation failed notification"
+  },
+  "floatingBallCreateError": {
+    "message": "Error creating floating ball:",
+    "description": "Error message when creating floating ball"
+  },
+  "contentProcessError": {
+    "message": "Error processing content:",
+    "description": "Error message when processing content"
+  },
+  "updateBallStateError": {
+    "message": "Unable to update floating ball state",
+    "description": "Error message when unable to update floating ball state"
+  },
+  "sendStatusUpdateError": {
+    "message": "Failed to send status update message",
+    "description": "Error message when sending status update fails"
+  },
+  "processingRequestError": {
+    "message": "Failed to process request",
+    "description": "Error message when processing request fails"
+  },
+  "popupClosedMessage": {
+    "message": "Popup may be closed",
+    "description": "Message when popup is likely closed"
+  },
+  "summaryFailedError": {
+    "message": "Summary failed:",
+    "description": "Error message when summary fails"
+  },
+  "floatingBallStyleError": {
+    "message": "Error updating floating ball style:",
+    "description": "Error message when updating floating ball style"
+  },
+  "extensionDescription": {
+    "message": "Save selected text, extract web content and generate summaries",
+    "description": "Extension description for manifest"
+  },
+  "notification": {
+    "message": "Notification",
+    "description": "Generic notification title"
+  },
+  "floatingBallRequestError": {
+    "message": "Error processing floating ball request:",
+    "description": "Error message when processing floating ball request"
+  },
+  "notificationClickError": {
+    "message": "Error handling notification click:",
+    "description": "Error message when handling notification click"
+  },
+  "saveClipboardContent": {
+    "message": "Save Clipboard Content to Blinko",
+    "description": "Context menu for saving clipboard content"
+  },
+  "importExportTitle": {
+    "message": "Import/Export Settings",
+    "description": "Import/Export settings group title"
+  },
+  "exportSettingsButton": {
+    "message": "Export Settings",
+    "description": "Export settings button text"
+  },
+  "importSettingsButton": {
+    "message": "Import Settings",
+    "description": "Import settings button text"
+  },
+  "importExportHelp": {
+    "message": "Export: Save current settings as JSON file. Import: Restore settings from JSON file.",
+    "description": "Import/Export functionality help text"
+  },
+  "exportSuccess": {
+    "message": "Settings exported successfully",
+    "description": "Settings export success message"
+  },
+  "exportError": {
+    "message": "Settings export failed: $1",
+    "description": "Settings export error message"
+  },
+  "importSuccess": {
+    "message": "Settings imported successfully",
+    "description": "Settings import success message"
+  },
+  "importError": {
+    "message": "Settings import failed: $1",
+    "description": "Settings import error message"
+  },
+  "importFileInvalid": {
+    "message": "Invalid file format. Please select a valid JSON file.",
+    "description": "Invalid import file format message"
+  },
+  "confirmImportDifferentVersion": {
+    "message": "This settings file was created with version $1, but current version is $2. Continue importing?",
+    "description": "Confirmation message when importing settings from different version"
+  },
+  "confirmImportSettings": {
+    "message": "Importing settings will override all current configurations. Continue?",
+    "description": "Confirm import settings dialog message"
+  },
+  "exportingSettings": {
+    "message": "Exporting settings...",
+    "description": "Status message when exporting settings"
+  },
+  "importingSettings": {
+    "message": "Importing settings...",
+    "description": "Status message when importing settings"
+  },
+  "importFileTooLarge": {
+    "message": "File too large. Please select a file smaller than 1MB.",
+    "description": "Error message when import file is too large"
+  },
+  "importFileTypeInvalid": {
+    "message": "Only .json files are allowed for import.",
+    "description": "Error message when import file type is invalid"
+  }
+}
